@@ -1,17 +1,154 @@
-<!DOCTYPE html>
-<html>
-   <head>
-     <title> Dessert Chef! </title>
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
-     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
-    </head>
-   <body>
-      <h1> uuuu </h1>
-      <h2> Heading page </h2>
-    <p>
-    Mh.
-    </p>
-   </body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Dessert Chef</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="jumbotron">
+      <h1> <br> Welcome to the sweet world of desserts </h1>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.pixabay.com/photo/2017/01/11/11/33/cake-1971556__340.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.pixabay.com/photo/2017/01/11/11/33/cake-1971552_960_720.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.pixabay.com/photo/2014/05/23/23/17/dessert-352475__340.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Menu</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main" class="container">
+
+      <div class="starter-template">
+        <h1> <br> Recipes for our delicious & quick easy desserts!</h1>
+        <p class="lead"> <br> Scroll down for the recipes for these delicious bites</p>
+      </div>
+
+      <!-- columns -->
+      <div class="row">
+        <div class="col-sm">
+          <img src="https://cdn.pixabay.com/photo/2017/01/11/11/33/cake-1971552_960_720.jpg" class="d-block w-100" alt="...">
+          <h1> Tiramisu </h1> Ingredients <br>
+          <ul>
+            <li>1 cup whipping cream</li>
+            <li>1 cup mascarpone cheese</li>
+            <li>1/3 cup sugar</li>
+            <li>1 teaspoon vanilla extract</li>
+            <li>1 tablespoon Amaretto</li>
+            <li>2 cups espresso</li>
+            <li>1 pack Ladyfingers</li>
+            <li>Cacoa powder for decorating</li>
+          </ul>
+          <ol>
+            <li>Beat whipping cream, sugar, and vanilla until soft peaks form.</li>
+            <li>Add in mascarpone cheese and amaretto (if using) and continue to whip to stiff peaks.</li>
+            <li>Dip ladyfingers in coffee (and brandy if using) and place in an 8×8 pan to make the first layer – you can fit about 7 cookies in each layer. Don't let them soak as the will fall apart, just a quick dunk in the coffee is enough.</li>
+            <li>Spread half of the whipped cream mixture on top of the first layer of ladyfingers. Repeat process with the second layer of ladyfingers and cream mixture.</li>
+            <li>Dust the top of dessert with cocoa powder using a sieve. Refrigerate for about 2-4 hours (it gets even better in the fridge and is a perfect make-ahead dessert).</li>
+          </ol>
+        </div>
+        <div class="col-sm">
+          <img src="https://cdn.pixabay.com/photo/2014/05/23/23/17/dessert-352475__340.jpg" class="d-block w-100" alt="...">
+          <h1> Strawberry Tartes </h1> Ingredients <br>
+          <ul>
+          <li>350g ready-made shortcrust pastry</li>
+          <li>1 cup double cream</li>
+          <li>1/2 punnet strawberrys</li>
+          <li>2 strawberry jam</li>
+          <li>Flour for rolling out</li>
+            </ul>
+          <br> <br> <br>
+          <ol>
+          <li>Turn the oven to 180C/fan. Roll the pastry out on a floured surface until it’s as thick as £1 coin. Cut round a saucer to make 4 circles. Put each one into the tin.</li>
+          <li>Put a square of greaseproof paper and some rice in each. Ask a grown-up to put them in the oven for 25 minutes, then take paper and rice out. Leave to cool.</li>
+          <li>Use a whisk to whisk the cream until it starts to get thick, then stir in the lemon curd.</li>
+          <li>Pull the green hulls out of the strawberries, and cut each one carefully into slices with a small knife.</li>
+          <li>Spoon the cream into 4 pastry cases. Arrange the strawberry slices in a spiral or in rows on top of the lemon cream.</li>
+          <li>Mix the jam in a bowl with 1 tbsp hot water, then brush it over the strawberries.</li>
+          </ol>
+
+        <br> <br> <br>
+
+        </div>
+        <div class="col-sm">
+          <img src="https://cdn.pixabay.com/photo/2017/01/11/11/33/cake-1971556__340.jpg" class="d-block w-100" alt="...">
+          <h1> Cheesecake </h1> Ingredients <br>
+          <ul>
+          <li>1 3/4 cups Graham Cracker Crumbs</li>
+          <li>1/3 cup butter</li>
+          <li>1/4 cup granulated sugar</li>
+          <li>4 packages Cream Cheese</li>
+          <li>1 cup granulated sugar</li>
+          <li>1/2 cup sour cream</li>
+          <li>2 teaspoons vanilla</li>
+          <li>3 eggs</li>
+        </ul>
+        <ol>
+          <li>Turn the oven to 180C/fan. In a bowl mix the graham cracker crumbs, butter and granulated sugar together evenly. Press the mixture into the bottom and up the sides of a pan.</li>
+          <li>Bake the crust for 8-10 minutes, or until lightly golden. Set aside while you make the cheesecake.</li>
+          <li>In the bowl of your stand mixer fitted with the paddle attachment, mix the cream cheese and sugar on medium speed, until smooth.</li>
+          <li>Turn the mixer to low and add the sour cream and vanilla; mix well. Add the eggs, 1 at a time, mixing on low speed after each addition. Don’t over mix. Pour the filling over crust and spread evenly.</li>
+          <li>Bake for 60-70 minutes or until the center is almost set. The center will still jiggle while the edges will be set.</li>
+          <li>Allow the cheesecake to cool at room temperature for at least an hour, then cover and transfer into the refrigerator overnight.</li>
+        </ol>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
+    <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
+  </body>
 </html>
